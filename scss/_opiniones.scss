@@ -1,0 +1,51 @@
+#opiniones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fillers {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;    
+}
+
+.p1 {
+    font-family: 'Zilla Slab', serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: $main-color;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: end;
+    width: 500px;
+    height: 100%;
+    line-height: 40px;
+    padding-top: 10%;
+    padding-right: 10px;
+}
+
+.p2 {
+    font-family: 'Zilla Slab', serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: $main-color;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: start;
+    width: 500px;
+    height: 100%;
+    line-height: 40px;
+    padding-top: 10%;
+    padding-left: 10px;
+}
+
+#opiniones {
+    max-width:1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

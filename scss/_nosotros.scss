@@ -1,0 +1,50 @@
+#sobre-nosotros {
+    margin-bottom: 30px;
+    max-width:1200px;
+    margin: auto;
+}
+
+#sobre-nosotros h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Zilla Slab', serif;
+    margin-bottom: 10px;
+}
+
+#sobre-nosotros p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    margin-top: 10px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.indent1{
+    margin-left: 100px;
+}
+
+.indent2{
+    margin-left: 150px;
+}
+
+.indent3{
+    margin-left: 200px;
+}
+
+.indent4{
+    margin-left: 250px;
+}
+
+.indent5{
+    margin-left: 300px;
+}
+
+.indent6{
+    margin-left: 350px;
+}
+
+.indent7 {
+    margin-left: 400px;
+    margin-bottom: 80px;
+}

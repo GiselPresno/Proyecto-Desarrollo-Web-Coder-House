@@ -1,0 +1,27 @@
+#nuestra-filosofia {
+    border-bottom-style: groove;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    font-family: 'Zilla Slab', serif;
+}
+
+#nuestra-filosofia h2 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;    
+}
+
+#nuestra-filosofia p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filo-container {
+    max-width:1200px;
+    margin: auto;
+    margin-top: 50px;
+}

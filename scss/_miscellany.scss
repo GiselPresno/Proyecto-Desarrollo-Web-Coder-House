@@ -1,0 +1,45 @@
+
+.heading {
+    background-color: $main-color;
+    color: black;
+    padding: 15px 0 15px 0;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.container {
+    max-width:1200px;
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+}
+
+footer p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+.font-color {
+    color: white;
+}
+
+nav {
+    color: white;
+}
