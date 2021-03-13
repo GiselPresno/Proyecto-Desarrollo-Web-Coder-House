@@ -6,6 +6,8 @@
     <!--Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Quicksand:wght@300&family=Shippori+Mincho&display=swap" rel="stylesheet">
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!--SEO-->
@@ -26,7 +28,8 @@
 </head>
 <body>
     <!--PPIO HEADER-->
-    <nav class="navbar navbar-expand-lg" class="font-color">
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#inicio">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,6 +60,7 @@
           </div>
         </div>
       </nav>
+    </div>
     <!--FIN HEADER-->
     <!--PPIO INICIO-->
     <div class="container-inicio" id="inicio">
@@ -158,7 +162,8 @@
         </section>
         <!--FIN FILO-->
         <!--PPIO OPINIONES-->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" class="container" id="opiniones">
+        <div id="opiniones">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" class="container">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -168,35 +173,35 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/filler1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="images/filler1.jpg" alt="...">
+                <div class="carousel-caption">
                   <h5>Professionalism</h5>
                   <p>Gisel did a small translation project for us. She completed the work on time, dealt gracefully with a technical glitch on our end, and showed amazing attention to detail. We would definitely work with her again.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/filler2.jpg" class="d-block w-100" alt="...">
+                <img src="images/filler2.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Coherence</h5>
                   <p>This is our second time working with Gisel. She is extremely professional and conscientious and we will definitely work with her again.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/filler3.jpg" class="d-block w-100" alt="...">
+                <img src="images/filler3.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Commitment</h5>
                   <p>Gisel did great work for us -- again! She is very conscientious and lovely to work with. We will definitely reach out to her for future projects.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/filler4.jpg" class="d-block w-100" alt="...">
+                <img src="images/filler4.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Responsiveness</h5>
                   <p>Thank you Gisel for always being so prompt with all the requests. You are wonderful to work with.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/filler5.jpg" class="d-block w-100" alt="...">
+                <img src="images/filler5.jpg" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Expertise</h5>
                   <p>Dear Gisel, Let me thank you for your hard work and contribution to our project, for your readiness to support and provide with professional opinion and advice. Your support has been crucial to meet our strict deadline.</p>
@@ -212,6 +217,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
         <!--FIN OPINIONES-->
         <!--PPIO CONTACTO-->
         <section id="contacto" class="container">

@@ -39,7 +39,7 @@
 
 .nuestros-servicios-sub-grid-container1 ul {
     margin: 10px 0 0 50px;
-    font-family: 'Zilla Slab', serif;
+    font-family: $font-bodytext;
     font-size: 20px;
     line-height: 40px;
 }
@@ -51,7 +51,7 @@
 
 .nuestros-servicios-sub-grid-container2 ul {
     margin: 10px 0 0 50px;
-    font-family: 'Zilla Slab', serif;
+    font-family: $font-bodytext;
     font-size: 20px;
     line-height: 40px;
 }
@@ -59,6 +59,7 @@
 #nuestros-servicios ul li {
     font-size: 20px;
     line-height: 40px;
+    font-family: $font-bodytext;
 }
 
 
