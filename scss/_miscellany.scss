@@ -1,9 +1,9 @@
 
 .heading {
     background-color: $main-color;
-    color: black;
+    color: white;
     padding: 15px 0 15px 0;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Zilla Slab', serif;
 }
 
@@ -13,8 +13,8 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: $font-main-color;
 }
 
 footer p {
@@ -22,7 +22,7 @@ footer p {
     margin-bottom: 50px;
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: $font-main-color;
     font-family: $font-bodytext;
 }
 
@@ -34,18 +34,35 @@ ul {
 
 nav ul li {
     display: inline-block;
-    color: white;
+    color: $font-main-color;
 }
 
 .font-color {
-    color: white;
+    color: $font-main-color;
 }
 
-nav {
-    color: white;
-}
 
 .navigation {
     font-family: 'Zilla Slab', serif;
-    color: white;
+    color: $font-main-color;
+}
+
+.navigation:hover {
+    color: pink;
+}
+
+.navigationbar {
+    position: fixed;
+    background-color: white;
+}
+
+.search-button {
+    border: black;
+    color: $font-main-color;
+}
+
+
+.search-button:hover {
+    background-color: black;
+    color: pink;
 }

@@ -1,11 +1,4 @@
-#nuestros-servicios {
-    border-bottom-style: groove;
-    border-bottom-color: white;
-    border-bottom-width: 1px;
-    border-top-style: groove;
-    border-top-color: white;
-    border-top-width: 1px;
-}
+
 
 #nuestros-servicios h2 {
     margin: 35px 0 35px 0;
@@ -61,6 +54,32 @@
     line-height: 40px;
     font-family: $font-bodytext;
 }
+
+
+.services:hover {
+    font-size: 0;
+}
+  
+.services:hover:before {
+    font-family: $font-bodytext;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    content: attr(data-hover);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+    height: 20rem;
+}
+
 
 
 

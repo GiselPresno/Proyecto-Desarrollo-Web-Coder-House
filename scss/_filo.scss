@@ -1,7 +1,4 @@
 #nuestra-filosofia {
-    border-bottom-style: groove;
-    border-bottom-color: white;
-    border-bottom-width: 1px;
     font-family: 'Zilla Slab', serif;
 }
 
@@ -11,13 +8,10 @@
     justify-content: center;    
 }
 
-#nuestra-filosofia p {
+#nuestra-filosofia .filo-desc {
     font-size: 20px;
     text-align: justify;
     line-height: 40px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-family: $font-bodytext;
 }
 
@@ -26,3 +20,31 @@
     margin: auto;
     margin-top: 50px;
 }
+
+.filler-filo1{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/writing.png);
+    position: relative;
+    top: 30px;
+    right: -50px;
+    background-repeat: no-repeat;
+}
+
+.filler-filo2{
+    width: 350px;
+    height: 400px;
+    background-image: url(../images/pink-background.png);
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+}
+
+.filo-container-bis {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
